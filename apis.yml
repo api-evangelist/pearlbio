@@ -1,7 +1,23 @@
 aid: pearlbio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pearlbio.png
 name: Pearlbio
-description: Pearlbio is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Pearl Bio is a synthetic biology company developing next-generation biomaterials for smart
+  biologics. Its proprietary platform unites genome and ribosome engineering to produce novel biologics
+  with diverse chemistries previously inaccessible, creating template-directed biomaterials with tunable
+  properties by combining biological precision with chemical diversity. The company partnered with Merck
+  on cancer-related biologics (announced March 2024) and is backed by Khosla Ventures. Pearl Bio operates
+  as a research-and-partnership organization and publishes no public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/pearlbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Synthetic Biology
+- Biotechnology
+- Biologics
+- Genome Engineering
+- Ribosome Engineering
+- Biomaterials
+- Drug Discovery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pearlbio-domain-security.yml
 - type: Website
   url: https://pearlbio.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
